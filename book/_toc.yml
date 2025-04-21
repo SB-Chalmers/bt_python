@@ -4,12 +4,11 @@ root: intro.md
 parts:
   - caption: Introduction
     chapters:
-
-      - file: getting_started.md
+      - file: introduction/getting_started.md
         title: Getting Started with Python for Research
-      - file: setup.md
+      - file: introduction/setup.md
         title: Setting Up Your Environment
-      - file: python_overview.md
+      - file: introduction/python_overview.md
         title: Overview of Python for Research
 
     
