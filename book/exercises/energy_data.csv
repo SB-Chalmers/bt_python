@@ -1,0 +1,31 @@
+year,building,energy_use,sq_ft,city,has_solar,notes
+2021,Building A,1200,15000,Stockholm,True,
+2021,Building B,950,12000,Göteborg,False,Needs insulation
+2021,Building C,1100,13000,Stockholm,False,
+2021,Building D,1500,20000,Malmö,True,High efficiency
+2022,Building A,1300,15000,Stockholm,True,
+2022,Building B,1050,12000,Göteborg,False,Renovated
+2022,Building C,900,13000,Stockholm,False,
+2022,Building D,1600,20000,Malmö,True,
+2022,Building E,800,11000,Uppsala,False,Old windows
+2023,Building A,1250,15000,Stockholm,True,
+2023,Building B,980,12000,Göteborg,False,
+2023,Building C,1150,13000,Stockholm,True,Added solar
+2023,Building D,1700,20000,Malmö,True,
+2023,Building E,850,11000,Uppsala,False,
+2023,Building F,1400,18000,Stockholm,False,New HVAC
+2021,Building F,1350,18000,Stockholm,False,
+2022,Building F,1380,18000,Stockholm,False,
+2021,Building E,820,11000,Uppsala,False,
+2021,Building G,900,12500,Malmö,True,
+2022,Building G,950,12500,Malmö,True,Energy audit
+2023,Building G,1000,12500,Malmö,True,
+2021,Building H,1000,14000,Göteborg,False,
+2022,Building H,1100,14000,Göteborg,False,Upgraded lighting
+2023,Building H,1200,14000,Göteborg,True,
+2021,Building I,1050,16000,Stockholm,False,
+2022,Building I,1100,16000,Stockholm,False,
+2023,Building I,1150,16000,Stockholm,True,
+2021,Building J,980,10000,Uppsala,False,
+2022,Building J,1020,10000,Uppsala,False,
+2023,Building J,1080,10000,Uppsala,True,

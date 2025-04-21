@@ -2,27 +2,67 @@ format: jb-book
 root: intro.md
 
 parts:
-  - caption: Contents
+  - caption: Introduction
     chapters:
-    - file: some_content/overview.md
-      sections:
-      - file: some_content/text_and_code.ipynb
-    - file: exercises.md
-      sections:
-      - file: exercises/001.md
-      - file: exercises/002.md
-      - file: exercises/003.md
-      - file: exercises/004.md
-      - file: exercises/005.md
-      - file: exercises/006.md
-      - file: exercises/summary
-    - file: syntax_exercises.md
-      sections:
-      - file: syntax_exercises/007.md
-      - file: syntax_exercises/008.md
-      - file: syntax_exercises/009.md
-      - file: syntax_exercises/010.md
-      - file: syntax_exercises/011.md
-    - file: references.md
-    - file: changelog.md
-    - file: credits.md
+
+      - file: getting_started.md
+        title: Getting Started with Python for Research
+      - file: setup.md
+        title: Setting Up Your Environment
+      - file: python_overview.md
+        title: Overview of Python for Research
+
+    
+  - caption: Core Modules
+    chapters:
+      - file: modules/01_getting_started.ipynb
+        title: Getting Started with Python
+      - file: modules/02_data_manipulation.ipynb
+        title: Working with Data in Python
+      - file: modules/03_automation.ipynb
+        title: Automating Repetitive Tasks
+      - file: modules/04_web_data.ipynb
+        title: Getting Data from the Web
+      - file: modules/05_project_structure.ipynb
+        title: Organising and Sharing Your Work
+
+  - caption: Optional Tracks
+    chapters:
+      - file: modules/06_gis_data.ipynb
+        title: Python for GIS (Optional)
+      - file: modules/07_time_series.ipynb
+        title: Python for Time-Series Data (Optional)
+
+  - caption: Practice & Exercises
+    chapters:
+      - file: exercises/index.md
+        title: Exercises Overview
+        sections:
+          - file: exercises/001_variables.ipynb
+          - file: exercises/002_lists_dicts.ipynb
+          - file: exercises/003_pandas_basics.ipynb
+          - file: exercises/004_cleaning.ipynb
+          - file: exercises/005_automation.ipynb
+          - file: exercises/006_web_data.ipynb
+
+  - caption: Supporting Python Projects (for Supervisors & Leads)
+    chapters:
+      - file: support/intro.md
+        title: Why Senior Researchers Should Support Python Workflows
+      - file: support/scoping.md
+        title: Scoping Python in a Research Project
+      - file: support/data_standards.md
+        title: Making Data Easy to Use in Python
+      - file: support/self_assessment.md
+        title: Self-Assessment Checklists (PI, Supervisor, Manager)
+      - file: support/budgeting.md
+        title: Budgeting Time and Resources for Reproducible Code
+      - file: support/code_review.md
+        title: Reviewing Python-Based Research (Without Being a Coder)
+      - file: support/summary.md
+        title: Summary of Key Points for Supporting Python Projects
+  
+  - caption: Extras & Resources
+    chapters:
+      - file: references.md
+      - file: credits.md

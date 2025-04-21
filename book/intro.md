@@ -1,6 +1,34 @@
 (intro)=
-# Welcome to the Template Book
+# Welcome to Python for Research Workflows
 
-_This is the first page the student will see when opening the url._
+This course is designed for researchers, RAs, and supervisors who want to **use Python as a practical tool** — for working with data, automating tasks, and supporting reproducible research — without needing to become software developers.
 
-This book can be used as a template for other books. It includes a starter package of the software developed by the TeachBooks initiative and some exercises to get you going!
+You won’t learn computer science or statistics here — instead, the idea of this workshop/course is to get you comfortable using Python in everyday research scenarios. Whether you're cleaning up survey data, accessing open APIs, or preparing datasets for collaboration, this course is meant to help you do it better with Python.
+
+---
+
+## 🧩 How to Use This Book
+
+- **Start with the Core Modules**: These build foundational Python skills step by step.
+- **Explore Optional Tracks**: GIS and time-series content is available if it’s relevant to your work.
+- **Practice What You Learn**: Interactive exercises are included throughout.
+- **Supervisors & Project Leads**: There’s a dedicated section with guidance on supporting Python-based research.
+
+---
+
+## 💡 What You’ll Learn
+
+- How to work with CSV and Excel files using `pandas`
+- How to automate repetitive tasks like renaming or formatting
+- How to access data from APIs or the web
+- How to structure and document your Python work for reuse
+- How to support students or collaborators using Python in research
+
+---
+
+## 🛠️ What You’ll Need
+
+- A browser (I recommend starting in **Google Colab** — no installation required!)
+- If you prefer to run things locally, install **Anaconda** or use **JupyterLab**
+
+Let’s get started!
