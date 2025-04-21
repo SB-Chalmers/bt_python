@@ -16,7 +16,7 @@ It is designed for BT researchers, research assistants, and supervisors who want
 ## 🚀 Getting Started
 
 1. **Read online:**  
-   The book can be read online (link coming soon or see the `book/` folder for source).
+   The book can be read online ([here](https://sb-chalmers.github.io/bt_python/main)).
 2. **Run interactively:**  
    Many chapters and exercises are Jupyter notebooks. You can launch them in [Google Colab](https://colab.research.google.com/) or run locally with [Anaconda](https://www.anaconda.com/) or [JupyterLab](https://jupyter.org/).
 
