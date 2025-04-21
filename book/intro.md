@@ -1,9 +1,9 @@
 (intro)=
-# Welcome to Python for Research Workflows
+# Welcome to Python for BT Researchers (WIP)
 
-This course is designed for researchers, RAs, and supervisors who want to **use Python as a practical tool** — for working with data, automating tasks, and supporting reproducible research — without needing to become software developers.
+This course/workshop is designed for BT researchers, RAs, and supervisors who want to **use Python as a practical tool** — for working with data, automating tasks, and supporting reproducible research — without needing to become software developers.
 
-You won’t learn computer science or statistics here — instead, the idea of this workshop/course is to get you comfortable using Python in everyday research scenarios. Whether you're cleaning up survey data, accessing open APIs, or preparing datasets for collaboration, this course is meant to help you do it better with Python.
+You **won’t** learn computer science or statistics here — instead, the idea of this workshop/course is to get you comfortable using Python in everyday research scenarios. Whether you're cleaning up survey data, accessing open APIs, or preparing datasets for collaboration, this course is meant to help you do it better with Python.
 
 ---
 
