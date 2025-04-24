@@ -1,8 +1,8 @@
-## Data Cleaning Guidelines for Python Workflows
+# Data Cleaning Guidelines for Python Workflows
 
 Clean, well‑structured data is essential for reliable, reproducible analyses and machine learning pipelines. This guide provides best practices, examples, and exercises to help your team prepare data that can be seamlessly ingested and processed in Python.
 
-:::::{topic} Data Formatting Best Practices
+## Data Formatting Best Practices
 
 **Objective:** Ensure datasets are machine‑readable, consistent, and free of structural issues.
 
@@ -22,13 +22,12 @@ Clean, well‑structured data is essential for reliable, reproducible analyses a
    - Save CSVs as UTF‑8 to preserve special characters in data values.
    - Include units in column headers (e.g., `height_m`, `energy_kwh`).
 
-::::::
 
 
 
 ---
 
-:::::{topic} Naming Conventions
+## Naming Conventions
 
 Use descriptive, concise names with only lowercase letters, numbers, and underscores.
 
@@ -39,9 +38,9 @@ Use descriptive, concise names with only lowercase letters, numbers, and undersc
 | `Energy (kWh)`       | `energy_kwh`            |
 | `1st Floor Area`     | `first_floor_area_m2`   |
 
-::::::
 
-### Tip
+
+
 
 ```{tip}
 Stick to standard abbreviations (e.g., `temp` for temperature) and avoid hyphens or spaces in file names: `energy_data_2024.csv`.
@@ -49,7 +48,7 @@ Stick to standard abbreviations (e.g., `temp` for temperature) and avoid hyphens
 
 ---
 
-:::::{topic} Metadata & Documentation
+## Metadata & Documentation
 
 Provide context so others can understand and reproduce your workflow.
 
@@ -68,12 +67,12 @@ Provide context so others can understand and reproduce your workflow.
   3. Preprocessing steps
   4. Contact information
 
-::::::
+
 
 
 ---
 
-:::::{topic} Data Quality Best Practices
+## Data Quality Best Practices
 
 1. **Missing values**: Use `NaN` for numerics and empty strings for text. Avoid custom codes like `-999` or `n/a`.
 2. **Duplicates**: Identify and remove unintended duplicates.
@@ -81,9 +80,8 @@ Provide context so others can understand and reproduce your workflow.
 4. **Language consistency**: English for headers; UTF‑8 for value fields.
 5. **No formulas, comments, or formatting** in raw data files.
 
-::::::
 
-### Tip
+
 
 ```{tip}
 After loading, run `df.describe(include='all')` to surface anomalies like unexpected categories or null counts.
@@ -91,7 +89,7 @@ After loading, run `df.describe(include='all')` to surface anomalies like unexpe
 
 ---
 
-:::::{topic} Common Problems & Solutions
+## Common Problems & Solutions
 
 | Problem                           | Example                       | Solution                         |
 |-----------------------------------|-------------------------------|----------------------------------|
@@ -103,17 +101,14 @@ After loading, run `df.describe(include='all')` to surface anomalies like unexpe
 | Units in data cells               | `"42 kWh"`                   | Separate unit: `energy_kwh = 42`  |
 | Encoding errors                   | `MalmÃ¶`                      | Save and read as `encoding='utf-8'` |
 
-::::::
+
 
 > **Rule of Thumb**: If you can’t read the file with one line of pandas code, it needs more cleaning.
 
 ---
 
-:::::{topic} Additional Resources & Links
+## Additional Resources & Links
 
 - [Pandas I/O Documentation](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html)
 - [PEP 8 Naming Conventions](https://peps.python.org/pep-0008/#naming-conventions)
-
-
-ewpage
 
