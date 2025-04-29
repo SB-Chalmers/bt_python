@@ -48,15 +48,13 @@ You can run Python code in several ways:
 - **Interactive Shell:** Type `python` in your terminal to execute code line by line.
 - **Script Files (.py):** Write code in a `.py` file and run it with `python filename.py`.
 - **Notebooks:** Interactive documents that combine code, text, and visualizations (see below).
-- **Online Platforms:** Use services like Google Colab or JupyterHub to run Python in your browser.
+- **Online Platforms:** Use services like Google Colab to run Python in your browser.
 
 ---
 
-## IDEs and Environments
+## IDEs
 
-- **IDE (Integrated Development Environment):** A software application that provides tools for writing, testing, and debugging code. Popular Python IDEs include PyCharm, VS Code, and Thonny.
-- **Text Editors:** Lightweight editors like Sublime Text or Atom can also be used.
-- **Environments:** Virtual environments (using `venv` or `conda`) help manage dependencies and avoid conflicts between projects.
+- **IDE (Integrated Development Environment):** A software application that provides tools for writing, testing, and debugging code. Popular Python IDEs include PyCharm, VS Code, and Thonny. We will use VSCode for this workshop
 
 ---
 
@@ -64,7 +62,6 @@ You can run Python code in several ways:
 
 - **Google Colab:** Free, cloud-based Jupyter notebook environment. No installation required.
 - **Jupyter Notebooks:** Run locally or on cloud services. Great for data analysis and visualization.
-- **Repl.it:** Online IDE supporting Python and many other languages.
 
 ---
 
@@ -96,10 +93,6 @@ A **notebook** (like Jupyter or Colab) is an interactive document that allows yo
 
 **Note:** Google colab is a ready-to-use editor but it can be limiting in the long term. The steps below that use VSCode are a more robust solution. If you do go with VSCode continue with the instructions below.
 
-
----
-
-Here's a revised and polished version of your text with grammar fixes, improved clarity, and consistent formatting:
 
 ---
 
