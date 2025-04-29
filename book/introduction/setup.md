@@ -1,3 +1,7 @@
+---
+marp: true
+---
+
 # Setting Up Your Python Development Environment
 
 This guide will walk you through installing Python, setting up Anaconda, configuring VS Code, and preparing your system for Python development. We'll also cover setting up GitHub and GitHub Desktop for version control and collaboration.
@@ -10,6 +14,9 @@ This guide will walk you through installing Python, setting up Anaconda, configu
 
 1. Go to the [official Python downloads page](https://www.python.org/downloads/).
 2. Download the latest Python 3.x installer for your operating system (Windows, macOS, or Linux).
+
+---
+
 3. Run the installer:
    - **Windows:** Check "Add Python to PATH" before clicking "Install Now".
    - **macOS/Linux:** Follow the prompts; you may need to use `sudo` on Linux.
@@ -22,18 +29,25 @@ This guide will walk you through installing Python, setting up Anaconda, configu
    python3 --version
    ```
 
+---
+
 ### Option B: Install with Anaconda
 
 [Anaconda](https://www.anaconda.com/products/distribution) is a popular Python distribution that includes Python, many scientific libraries, and the `conda` package manager.
 
 1. Download the Anaconda installer for your OS from the [Anaconda Distribution page](https://www.anaconda.com/products/distribution).
 2. Run the installer and follow the instructions.
+
+---
+
 3. After installation, open the **Anaconda Navigator** or use the **Anaconda Prompt** (Windows) or terminal (macOS/Linux).
 4. Verify installation:
    ```sh
    conda --version
    python --version
    ```
+
+---
 
 #### Why Use Anaconda?
 

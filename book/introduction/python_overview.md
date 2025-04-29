@@ -1,3 +1,7 @@
+---
+marp: true
+---
+
 # Python Overview
 
 This section provides a quick introduction to Python's structure, syntax, and basic concepts. It's designed for complete beginners!
