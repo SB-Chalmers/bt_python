@@ -68,10 +68,16 @@ A **notebook** (like Jupyter or Colab) is an interactive document that allows yo
 ## Getting Started Checklist
 
 1. **Install Python 3:** Download from [python.org](https://www.python.org/downloads/).
-2. **Choose an IDE or Editor:** Try VS Code, PyCharm, or Thonny.
-3. **Set Up a Virtual Environment:** Use `python -m venv venv` and activate it.
-4. **Try a Notebook:** Install Jupyter with `pip install notebook` or use Google Colab online.
-5. **Write Your First Program:** Create a file `hello.py` with `print("Hello, world!")` and run it.
+2. **Choose an IDE or Editor:** Either use Google Colab [colab.research.google](https://colab.research.google.com/) or install VSCode from [code.visualstudio](https://code.visualstudio.com/)
+
+**Note:** Google colab is a ready to use editor but it can be harder to use in the long term. VSCode is a more robust solution. If you do go with VSCode continue with the instructions below
+
+
+3. **Install Anaconda:** Install Anaconda from [anaconda](https://www.anaconda.com/)
+4. **Setup Github account:** Setup a free Github accound from [Github](https://github.com/)
+5. **Install Github Desktop (Optional)** Install [Github desktop client](https://github.com/apps/desktop)
+6. **Connect visual studio to copilot** Follow instructions [here](https://visualstudio.microsoft.com/github-copilot/) to connect to Github Copilot to get chatgpt inside github 
+7. **Set Up a Virtual Environment:** Follow [this tutorial](https://www.anaconda.com/docs/tools/anaconda-navigator/tutorials/manage-environments) to setup a virtual environment or use `conda create -n btpython python=3.11 anaconda` and activate it using `conda activate btpython`.
 
 ---
 
