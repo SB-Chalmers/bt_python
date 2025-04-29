@@ -94,16 +94,35 @@ A **notebook** (like Jupyter or Colab) is an interactive document that allows yo
 1. **Install Python 3:** Download from [python.org](https://www.python.org/downloads/).
 2. **Choose an IDE or Editor:** Either use Google Colab [colab.research.google](https://colab.research.google.com/) or install VSCode from [code.visualstudio](https://code.visualstudio.com/)
 
-**Note:** Google colab is a ready to use editor but it can be harder to use in the long term. VSCode is a more robust solution. If you do go with VSCode continue with the instructions below
+**Note:** Google colab is a ready-to-use editor but it can be limiting in the long term. The steps below that use VSCode are a more robust solution. If you do go with VSCode continue with the instructions below.
 
 
 ---
 
-3. **Install Anaconda:** Install Anaconda from [anaconda](https://www.anaconda.com/)
-4. **Setup Github account:** Setup a free Github accound from [Github](https://github.com/)
-5. **Install Github Desktop (Optional)** Install [Github desktop client](https://github.com/apps/desktop)
-6. **Connect visual studio to copilot** Follow instructions [here](https://visualstudio.microsoft.com/github-copilot/) to connect to Github Copilot to get chatgpt inside github 
-7. **Set Up a Virtual Environment:** Follow [this tutorial](https://www.anaconda.com/docs/tools/anaconda-navigator/tutorials/manage-environments) to setup a virtual environment or use `conda create -n btpython python=3.11 anaconda` and activate it using `conda activate btpython`.
+Here's a revised and polished version of your text with grammar fixes, improved clarity, and consistent formatting:
+
+---
+
+3. **Install Anaconda:**  
+Download and install [Anaconda](https://www.anaconda.com/). Anaconda is a tool that allows you to manage your Python environments. A Python environment is simply a separate installation of Python that lets you have multiple versions and sets of libraries side by side. As you work on multiple projects over time, you may encounter conflicts between specific versions of Python and certain libraries. Anaconda helps you manage these conflicts by maintaining clean, isolated Python installations on the same computer.
+
+4. **Set Up a GitHub Account:**  
+Create a free GitHub account at [GitHub](https://github.com/). We'll use GitHub to access notebooks and files for this course and to practice best practices for documenting and managing our projects.
+
+5. **Install GitHub Desktop (Optional):**  
+Download the [GitHub Desktop client](https://github.com/apps/desktop). This application allows you to manage projects without using the command line. While this step is optional, GitHub Desktop can be a helpful tool for beginners. Over time, you may find yourself using it less frequently as you become more comfortable with Git and GitHub.
+
+6. **Connect Visual Studio to GitHub Copilot:**  
+Follow the instructions [here](https://visualstudio.microsoft.com/github-copilot/) to connect Visual Studio to GitHub Copilot. While this workshop does not directly use ChatGPT, Copilot gives you access to AI-powered code suggestions and explanations. This feature can help boost your productivity, especially in independent projects, and can make coding feel less daunting or isolating.
+
+7. **Set Up a Virtual Environment:**  
+Follow [this tutorial](https://www.anaconda.com/docs/tools/anaconda-navigator/tutorials/manage-environments) or run the command below in your terminal to create a virtual environment for this course:  
+```bash
+conda create -n btpython python=3.11 anaconda
+conda activate btpython
+```
+This virtual environment ensures that the customizations we apply in this course won’t interfere with your other Python projects.
+
 
 ---
 
