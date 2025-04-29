@@ -1,15 +1,15 @@
 
-# Supporting Python‑Based Research Projects  
-This is a work in progress, please come back later!!
+# Supporting Python-Based Research Projects
 
-*For Principal Investigators, Supervisors & Managers*  
+*For Principal Investigators, Supervisors & Managers*
 
-A practical guide to roles, responsibilities, and self‑assessment tools for research projects that leverage Python workflows — from data analysis to reproducible simulations.
+A practical guide to roles, responsibilities, and self-assessment tools for research projects that leverage Python workflows — from data analysis to reproducible simulations.
 
 ---
 
-## Part I: Roles & Responsibilities  
-An at‑a‑glance matrix followed by detailed breakdowns for each role.
+## Part I: Roles & Responsibilities
+
+Successful Python-based research depends on the right support at every stage. This section outlines the core responsibilities of principal investigators (PIs), supervisors, project managers, and research support staff.
 
 ### Roles at a Glance
 
@@ -22,94 +22,76 @@ An at‑a‑glance matrix followed by detailed breakdowns for each role.
 | 🧑‍💼 **Division/Project Manager** | Program Oversight     | Provide standards, training & infrastructure |
 | *(Optional)* **RSE, Data Manager, RA** | —               | Specialized technical support              |
 
----
+Each role contributes uniquely to the success of the project. Below are detailed descriptions of the responsibilities and support expectations for each.
 
-<details>
-<summary>### 🧑‍🔬 Principal Investigator (PI) – Grant Application Stage</summary>
+### 🧑‍🔬 Principal Investigator (PI) – Grant Application Stage
 
 **Key Task:** Enable scalable, reproducible, and fundable Python‑based research workflows.
 
 **Top Responsibilities:**
-1. **Draft a Data Management Plan**: detail structure, access, storage, and formats (CSV, GeoJSON, etc.).
-2. **Budget for Technical Staff & Compute**: justify RSEs, HPC/cloud resources, and coding time.
-3. **Embed Open Science Goals**: plan for JOSS submissions, Zenodo deposits, or equivalent.
-4. **Define Team Roles Early**: who codes, documents, reviews, and maintains infrastructure.
-5. **Recognize Infrastructure Work**: treat digital twins, simulations, and pipelines as valid research outputs.
+1. **Draft a Data Management Plan**: Plan for structured, accessible data including formats, sources, backup strategies, and long-term storage solutions.
+2. **Budget for Technical Staff & Compute**: Ensure funding proposals include adequate resources for programming effort, compute environments, and RSE support.
+3. **Embed Open Science Goals**: Set expectations for sharing code and data early. Identify target platforms such as GitHub, Zenodo, or JOSS.
+4. **Define Team Roles Early**: Avoid ambiguity by assigning ownership of coding, testing, documentation, and infrastructure tasks.
+5. **Recognize Infrastructure as Output**: Treat scripts, pipelines, and tools as valid scholarly contributions alongside traditional papers.
 
-</details>
+### 👩‍🏫 Supervisor – Early‑Stage PhD
 
-<details>
-<summary>### 👩‍🏫 Supervisor – Early‑Stage PhD</summary>
-
-**Key Task:** Establish foundational habits and scalable workflows from project start.
+**Key Task:** Establish foundational habits and workflows.
 
 **Top Responsibilities:**
-1. **Clarify Project Scope**: one‑off analysis vs. reusable pipeline.
-2. **Recommend Python Resources**: domain tutorials, notebook practices, and version control.
-3. **Define Coding Standards**: naming conventions, folder structures, modular scripts.
-4. **Co‑develop Repo Template**: minimal reproducible structure together.
-5. **Distinguish Blockers**: code syntax, domain theory, or conceptual research issues.
+1. **Clarify Python’s Purpose**: Discuss Python’s role in the research—data cleaning, modeling, visualizations—and match expectations accordingly.
+2. **Provide Onboarding Resources**: Recommend accessible learning material and domain-specific examples to shorten the learning curve.
+3. **Set Coding Standards**: Introduce basic best practices such as naming conventions, consistent folder layout, and commenting.
+4. **Co‑create a Project Repo**: Start the research with a working, version-controlled template to encourage reproducibility.
+5. **Diagnose Common Blockers**: Help students differentiate between programming issues and theoretical confusion, reducing frustration and delays.
 
-</details>
+### 🧑‍🎓 Supervisor – Late‑Stage PhD
 
-<details>
-<summary>### 🧑‍🎓 Supervisor – Late‑Stage PhD</summary>
-
-**Key Task:** Guide towards publishable, shareable, and citable code.
+**Key Task:** Help finalize the research product with shareable, citable code.
 
 **Top Responsibilities:**
-1. **Encourage Packaging Outputs**: JupyterBooks, Binder configs, and code repos.
-2. **Allocate Time for Refactoring**: documentation, tutorials, and method write‑ups.
-3. **Clarify Code Value**: output vs. means to an end.
-4. **Review for Reproducibility**: can others rerun the analysis seamlessly?
-5. **Plan Deposits**: GitHub releases, Zenodo DOIs, or JOSS paper submissions.
+1. **Guide Packaging**: Help students prepare their work for archiving and citation, including exporting notebooks, writing documentation, and assigning DOIs.
+2. **Prioritize Refactoring Time**: Allocate time for cleaning up code, reorganizing functions, and removing redundant or experimental files.
+3. **Define Code Value**: Clarify how the code supports the thesis—whether it’s a deliverable or a means to an end.
+4. **Encourage Reproducibility**: Ensure results can be regenerated using provided scripts and clear instructions.
+5. **Support Publication Readiness**: Assist with making the repository public, licensing, and writing metadata or README files.
 
-</details>
+### 🎓 Supervisor – Master’s Thesis
 
-<details>
-<summary>### 🎓 Supervisor – Master’s Thesis</summary>
-
-**Key Task:** Scope work realistically and prevent over‑engineering.
+**Key Task:** Scope the project realistically and guide toward a clean final product.
 
 **Top Responsibilities:**
-1. **Set Achievable Goals**: avoid building full libraries unless needed.
-2. **Provide Starter Templates**: notebooks, folder structures, and sample data.
-3. **Emphasize Good Habits**: clear comments, README, and documented steps.
-4. **Require a Final Repo**: well‑organized deliverable with README.
-5. **Coach on Time Budgeting**: data cleaning often takes half the effort.
+1. **Avoid Overengineering**: Keep the student focused on solving the research problem without adding unnecessary complexity.
+2. **Provide Templates**: Share lightweight starter code and data that reflect good structure and minimal viable functionality.
+3. **Teach the Basics**: Reinforce the importance of clear variable names, inline comments, and using functions to avoid repeated code.
+4. **Require a Final Repo**: Expect a deliverable GitHub repo that includes a README, instructions, and cleaned datasets.
+5. **Time Guidance**: Remind students that data cleaning and debugging often take longer than expected, and should be accounted for early.
 
-</details>
+### 🧑‍💼 Division/Project Manager
 
-<details>
-<summary>### 🧑‍💼 Division/Project Manager</summary>
-
-**Key Task:** Create the conditions for success across projects.
+**Key Task:** Support multiple projects through shared infrastructure and policy.
 
 **Top Responsibilities:**
-1. **Establish Division‑wide Standards**: coding templates and style guides.
-2. **Provide Central Repositories**: GitHub/GitLab organization.
-3. **Offer Training & Onboarding**: internal workshops and documentation.
-4. **Encourage Documentation & Handover**: knowledge transfer protocols.
-5. **Incentivize Shared Infrastructure**: reusable scripts and environments.
+1. **Create Standards**: Define coding norms for the division including naming, formatting, and documentation guidelines.
+2. **Support GitHub/GitLab Orgs**: Provide access and oversight for centralized repositories and collaborative workflows.
+3. **Train Researchers**: Offer internal courses or onboarding materials for students and staff new to programming.
+4. **Institutionalize Documentation**: Require teams to document handover procedures, workflow diagrams, and dependencies.
+5. **Enable Collaboration**: Encourage reuse by rewarding shared solutions, modular scripts, and cross-project contributions.
 
-</details>
+### Optional Roles: RSEs, Data Stewards, Research Assistants
 
-<details>
-<summary>### Optional Roles</summary>
-
-- **🧑‍🔧 Research Software Engineer (RSE):**
-  - *Support:* code architecture, testing, reproducibility
-  - *Task:* build maintainable, production‑ready pipelines
+- **🧑‍💻 Research Software Engineer (RSE):**
+  - Provide expertise on software design, testing frameworks, performance, and continuous integration.
+  - Ensure code is scalable, modular, and production-grade when needed.
 
 - **📊 Data Steward / Data Manager:**
-  - *Support:* data sourcing, standardization, metadata
-  - *Task:* ensure analysis‑ready, compliant datasets
+  - Handle acquisition, conversion, storage, and ethical/data policy compliance.
+  - Work to make data FAIR (Findable, Accessible, Interoperable, Reusable).
 
 - **🧑‍💻 Research Assistant / Collaborator:**
-  - *Support:* coding tasks, documentation, blocker reporting
-  - *Task:* follow conventions, assist reproducibility
-
-</details>
+  - Contribute scripts, exploratory notebooks, or documentation.
+  - Communicate blockers and coordinate closely with leads to align on tasks.
 
 ---
 
@@ -187,13 +169,9 @@ _Use the tables to reflect on project readiness. Tick ✔︎ or ✘, and jot bri
 
 ## Appendix: Templates & Resources
 
-- [PDF Checklist Template](#)
-- [Starter Repo Structure (ZIP)](#)
-- [Sample README.md](#)
+- [How to structure a repository for a python project](https://docs.python-guide.org/writing/structure/)
+- [Sample README.md](https://www.makeareadme.com/)
 - [JOSS Submission Guidelines](https://joss.theoj.org/)
 - [Zenodo Deposits](https://zenodo.org/)
 
 ---
-
-*Feel free to adapt, expand, or embed this guide in your project docs!*
-
