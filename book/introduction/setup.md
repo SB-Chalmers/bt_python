@@ -61,17 +61,6 @@ This guide will walk you through installing Python, setting up Anaconda, configu
 
 Virtual environments help isolate project dependencies.
 
-### Using `venv` (Standard Python)
-
-```sh
-python -m venv venv
-# Activate:
-# Windows:
-venv\Scripts\activate
-# macOS/Linux:
-source venv/bin/activate
-```
-
 ### Using `conda` (Anaconda)
 
 ```sh
@@ -105,41 +94,18 @@ conda activate myenv
 2. Install and launch GitHub Desktop.
 3. Sign in with your GitHub account.
 
-### Install Git (if needed)
-
-- [Download Git](https://git-scm.com/downloads) and follow the installation instructions.
-
 ---
 
-## 5. Cloning a Repository
+## 5. Downloading the workshop files
 
 With GitHub Desktop or Git, you can clone repositories to your local machine.
 
 **Using GitHub Desktop:**
-1. Click "File" > "Clone repository".
+1. Click "clone a repository from the internet" and then .
 2. Paste the repository URL and choose a local path.
 
 **Using Git:**
 ```sh
-git clone https://github.com/your-username/your-repo.git
+git clone https://github.com/SB-Chalmers/bt_python.git
 ```
-
 ---
-
-## 6. Additional Tools
-
-- **Jupyter Notebook:** Install via Anaconda or with `pip install notebook`.
-- **Google Colab:** No installation needed, just visit [colab.research.google.com](https://colab.research.google.com/).
-
----
-
-## 7. First Steps
-
-1. Open VS Code and open your project folder.
-2. Open a terminal in VS Code (`Ctrl+``).
-3. Activate your virtual environment.
-4. Create a new Python file or notebook and start coding!
-
----
-
-You're now ready to start developing with Python, manage your code with GitHub, and use powerful tools like VS Code and Jupyter!

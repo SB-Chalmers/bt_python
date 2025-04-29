@@ -96,7 +96,7 @@ A **notebook** (like Jupyter or Colab) is an interactive document that allows yo
 
 ---
 
-3. **Install Anaconda:**  
+3. **Install Anaconda (optional):**  
 Download and install [Anaconda](https://www.anaconda.com/). Anaconda is a tool that allows you to manage your Python environments. A Python environment is simply a separate installation of Python that lets you have multiple versions and sets of libraries side by side. As you work on multiple projects over time, you may encounter conflicts between specific versions of Python and certain libraries. Anaconda helps you manage these conflicts by maintaining clean, isolated Python installations on the same computer.
 
 4. **Set Up a GitHub Account:**  
