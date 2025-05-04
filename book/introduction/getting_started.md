@@ -7,13 +7,13 @@ Welcome to the Python course book! This guide will help you get started with Pyt
 
 ---
 
-## What is Python?
+# What is Python?
 
 Python is a high-level, interpreted programming language known for its simplicity and readability. It was created by Guido van Rossum and first released in 1991. Python emphasizes code readability and allows programmers to express concepts in fewer lines of code compared to other languages.
 
 ---
 
-## A Brief History
+# A Brief History
 
 - **1991:** Python 0.9.0 released by Guido van Rossum.
 - **2000:** Python 2.0 introduced new features like list comprehensions and garbage collection.
@@ -23,7 +23,7 @@ Python has grown rapidly in popularity due to its versatility, large community, 
 
 ---
 
-## Why is Python Popular?
+# Why is Python Popular?
 
 - **Easy to Learn:** Simple, readable syntax.
 - **Versatile:** Used in data science, automation, Spatial analysis, AI, and more.
@@ -32,17 +32,17 @@ Python has grown rapidly in popularity due to its versatility, large community, 
 
 ---
 
-## Python Versions
+# Python Versions
 
 There are two main versions:
 - **Python 2.x:** Legacy version, no longer maintained (But software like grasshopper and Rhino still use it).
 - **Python 3.x:** Actively developed and recommended for all new projects.
 
-Always use the latest Python 3.x version unless you have a specific reason to use Python 2 (Like grasshopper).
+ **Tip:** Always use the latest Python 3.x version unless you have a specific reason to use Python 2 (Like grasshopper).
 
 ---
 
-## Ways to Use Python
+# Ways to Use Python
 
 You can run Python code in several ways:
 - **Interactive Shell:** Type `python` in your terminal to execute code line by line. (This is the lightest way to do it - not reccomended)
@@ -55,7 +55,7 @@ You can run Python code in several ways:
 # Tools for python development
 ---
 
-## Notebook
+# Notebook
 ![alt text](image.png)
 
 ---
@@ -68,7 +68,7 @@ A **notebook** (like Jupyter or Google Colab) is an interactive document that al
 
 ---
 
-### Notebook vs. .py File
+## Notebook vs. .py File
 
 | Feature         | Notebook (.ipynb)         | Python Script (.py)      |
 |-----------------|--------------------------|--------------------------|
@@ -78,7 +78,15 @@ A **notebook** (like Jupyter or Google Colab) is an interactive document that al
 | Use Case        | Data analysis, teaching  | Application development  |
 
 ---
-## Editor (IDEs)
+
+## Running Python Online
+
+- **Google Colab:** Free, cloud-based notebook environment. No installation required.
+
+
+---
+
+# Editor (IDEs)
 ![alt text](image-1.png)
 
 ---
@@ -88,23 +96,15 @@ A **notebook** (like Jupyter or Google Colab) is an interactive document that al
 - **IDE (Integrated Development Environment):** A software application (basically a text editor) that provides tools for writing, testing, and debugging code. Popular Python IDEs include VS Code, and pycharm. We will use VSCode for this workshop
 
 ---
-## Package Manager
+# Package Manager
 ![alt text](image-2.png)
 
 ---
-## Version Control
+# Version Control
 ![alt text](image-3.png)
 
 ---
-## Virtual Environment
+# Virtual Environment
 ![alt text](image-4.png)
-
-
----
-
-## Running Python Online
-
-- **Google Colab:** Free, cloud-based notebook environment. No installation required.
-
 
 

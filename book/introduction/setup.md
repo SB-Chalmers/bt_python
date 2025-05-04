@@ -16,7 +16,7 @@ This guide will walk you through installing Python, setting up Anaconda, configu
 ## 1. **Where to write code:** 
 For the absolute easiest way to start you should use Google Colab [colab.research.google](https://colab.research.google.com/). If you are comfortable with getting more hands-on and want to save and run your code locally on your computer, install VSCode from [code.visualstudio](https://code.visualstudio.com/)
 
-**Note:** Google colab is a ready-to-use editor but it can be limiting in the long term. The steps below that use VSCode are a more robust solution. If you do go with VSCode continue with the instructions below.
+ **Tip:** Google colab is a ready-to-use editor but it can be limiting in the long term. The steps below that use VSCode are a more robust solution. If you do go with VSCode continue with the instructions below.
 
 
 ---
@@ -43,7 +43,7 @@ As you work on multiple projects over time, you may encounter conflicts between 
 
 ---
 
-## *Why Use Anaconda?*
+ **Tip:** Why Use Anaconda?
 
 - Simplifies package management and deployment.
 - Comes with Jupyter Notebook and many data science libraries pre-installed.
@@ -69,9 +69,10 @@ Follow the instructions [here](https://visualstudio.microsoft.com/github-copilot
 ## 6. **Set Up a Virtual Environment:**  
 Follow [this tutorial](https://www.anaconda.com/docs/tools/anaconda-navigator/tutorials/manage-environments) or run the command below in your terminal to create a virtual environment for this course:  
 ```bash
-conda create -n btpython python=3.11
+conda create -n btpython python=3.12
 conda activate btpython
 ```
+
 
 --- 
 `conda` calls the conda application installed on your computer.
@@ -84,9 +85,20 @@ conda activate btpython
 `activate` the first command, instructing conda that we want to activate a virtual environment .
 `btpython` the name of the environment we want to activate.
 
----
+**Tip** You can automate the whole process by running `conda env create -f btpython.yaml`
 
-This virtual environment ensures that the customizations we apply in this course won’t interfere with your other Python projects.
+---
+## 7. Installing libraries
+```bash
+conda activate btpython
+conda install pandas
+conda install geopandas
+conda install <other libraries>
+```
+
+
+
+ **Tip:** This virtual environment ensures that the customizations we apply in this course won’t interfere with your other Python projects.
 
 
 ---

@@ -175,5 +175,3 @@ Use `#` for single-line comments.
 - Functions help organize code.
 - Classes let you create your own data types.
 - Libraries and pip let you use and install extra functionality.
-
-You're now ready to start experimenting with Python code!
