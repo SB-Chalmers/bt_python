@@ -29,6 +29,6 @@ You **won’t** learn computer science or statistics here — instead, the idea 
 ## 🛠️ What You’ll Need
 
 - A browser (I recommend starting in **Google Colab** — no installation required!)
-- If you prefer to run things locally, install **Anaconda** or use **JupyterLab**
+- If you prefer to run things locally, you can install a code editor on your computer (instructions to follow in the next pages)
 
 Let’s get started!

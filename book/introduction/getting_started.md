@@ -26,7 +26,7 @@ Python has grown rapidly in popularity due to its versatility, large community, 
 ## Why is Python Popular?
 
 - **Easy to Learn:** Simple, readable syntax.
-- **Versatile:** Used in web development, data science, automation, AI, and more.
+- **Versatile:** Used in data science, automation, Spatial analysis, AI, and more.
 - **Large Ecosystem:** Thousands of libraries and frameworks.
 - **Strong Community:** Extensive documentation and support.
 
@@ -35,39 +35,33 @@ Python has grown rapidly in popularity due to its versatility, large community, 
 ## Python Versions
 
 There are two main versions:
-- **Python 2.x:** Legacy version, no longer maintained.
+- **Python 2.x:** Legacy version, no longer maintained (But software like grasshopper and Rhino still use it).
 - **Python 3.x:** Actively developed and recommended for all new projects.
 
-Always use the latest Python 3.x version unless you have a specific reason to use Python 2.
+Always use the latest Python 3.x version unless you have a specific reason to use Python 2 (Like grasshopper).
 
 ---
 
 ## Ways to Use Python
 
 You can run Python code in several ways:
-- **Interactive Shell:** Type `python` in your terminal to execute code line by line.
-- **Script Files (.py):** Write code in a `.py` file and run it with `python filename.py`.
-- **Notebooks:** Interactive documents that combine code, text, and visualizations (see below).
-- **Online Platforms:** Use services like Google Colab to run Python in your browser.
+- **Interactive Shell:** Type `python` in your terminal to execute code line by line. (This is the lightest way to do it - not reccomended)
+- **Script Files (.py):** Write code in a `.py` file and run it in your terminal with `python filename.py`. (This is how you run python applications - Advanced)
+- **Notebooks:** Interactive documents that combine code, text, and visualizations. (This is how most people do it - Beginner friendly)
+- **Online Platforms:** Use services like Google Colab to run Python in your browser. (Ideal for first time users)
 
 ---
 
-## IDEs
-
-- **IDE (Integrated Development Environment):** A software application that provides tools for writing, testing, and debugging code. Popular Python IDEs include PyCharm, VS Code, and Thonny. We will use VSCode for this workshop
-
+# Tools for python development
 ---
 
-## Running Python Online
-
-- **Google Colab:** Free, cloud-based Jupyter notebook environment. No installation required.
-- **Jupyter Notebooks:** Run locally or on cloud services. Great for data analysis and visualization.
+## Notebook
+![alt text](image.png)
 
 ---
-
 ## What is a Notebook?
 
-A **notebook** (like Jupyter or Colab) is an interactive document that allows you to mix code, text, images, and visualizations. Notebooks are ideal for:
+A **notebook** (like Jupyter or Google Colab) is an interactive document that allows you to mix code, text, images, and visualizations. Notebooks are ideal for:
 - Experimenting with code
 - Documenting your workflow
 - Sharing results with others
@@ -84,39 +78,33 @@ A **notebook** (like Jupyter or Colab) is an interactive document that allows yo
 | Use Case        | Data analysis, teaching  | Application development  |
 
 ---
+## Editor (IDEs)
+![alt text](image-1.png)
 
+---
 
-## Getting Started Checklist
+## IDEs
 
-1. **Install Python 3:** Download from [python.org](https://www.python.org/downloads/).
-2. **Choose an IDE or Editor:** Either use Google Colab [colab.research.google](https://colab.research.google.com/) or install VSCode from [code.visualstudio](https://code.visualstudio.com/)
+- **IDE (Integrated Development Environment):** A software application (basically a text editor) that provides tools for writing, testing, and debugging code. Popular Python IDEs include VS Code, and pycharm. We will use VSCode for this workshop
 
-**Note:** Google colab is a ready-to-use editor but it can be limiting in the long term. The steps below that use VSCode are a more robust solution. If you do go with VSCode continue with the instructions below.
+---
+## Package Manager
+![alt text](image-2.png)
+
+---
+## Version Control
+![alt text](image-3.png)
+
+---
+## Virtual Environment
+![alt text](image-4.png)
 
 
 ---
 
-3. **Install Anaconda (optional):**  
-Download and install [Anaconda](https://www.anaconda.com/). Anaconda is a tool that allows you to manage your Python environments. A Python environment is simply a separate installation of Python that lets you have multiple versions and sets of libraries side by side. As you work on multiple projects over time, you may encounter conflicts between specific versions of Python and certain libraries. Anaconda helps you manage these conflicts by maintaining clean, isolated Python installations on the same computer.
+## Running Python Online
 
-4. **Set Up a GitHub Account:**  
-Create a free GitHub account at [GitHub](https://github.com/). We'll use GitHub to access notebooks and files for this course and to practice best practices for documenting and managing our projects.
-
-5. **Install GitHub Desktop (Optional):**  
-Download the [GitHub Desktop client](https://github.com/apps/desktop). This application allows you to manage projects without using the command line. While this step is optional, GitHub Desktop can be a helpful tool for beginners. Over time, you may find yourself using it less frequently as you become more comfortable with Git and GitHub.
-
-6. **Connect Visual Studio to GitHub Copilot:**  
-Follow the instructions [here](https://visualstudio.microsoft.com/github-copilot/) to connect Visual Studio to GitHub Copilot. While this workshop does not directly use ChatGPT, Copilot gives you access to AI-powered code suggestions and explanations. This feature can help boost your productivity, especially in independent projects, and can make coding feel less daunting or isolating.
-
-7. **Set Up a Virtual Environment:**  
-Follow [this tutorial](https://www.anaconda.com/docs/tools/anaconda-navigator/tutorials/manage-environments) or run the command below in your terminal to create a virtual environment for this course:  
-```bash
-conda create -n btpython python=3.11 anaconda
-conda activate btpython
-```
-This virtual environment ensures that the customizations we apply in this course won’t interfere with your other Python projects.
+- **Google Colab:** Free, cloud-based notebook environment. No installation required.
 
 
----
 
-You're now ready to start your Python journey!
