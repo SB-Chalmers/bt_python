@@ -85,7 +85,7 @@ conda activate btpython
 `activate` the first command, instructing conda that we want to activate a virtual environment .
 `btpython` the name of the environment we want to activate.
 
-**Tip** You can automate the whole process by running `conda env create -f btpython.yaml`
+**Tip** You can automate the whole process by running `conda env create -f btpython.yaml`. This instructs conda to look at the bypython.yaml text file and follow all the instructions in there to create a new virtual environment. This is also good practice when you want to share your project, either include a requirements.txt or a requirements.yaml file to allow others to recreate your virtual environment identically.
 
 ---
 ## 7. Installing libraries
@@ -93,6 +93,9 @@ conda activate btpython
 conda activate btpython
 conda install pandas
 conda install geopandas
+.
+.
+.
 conda install <other libraries>
 ```
 
