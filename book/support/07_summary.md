@@ -6,7 +6,7 @@ Supporting Python-based research isn't about knowing every command — it's abou
 ✅ Support clean and structured data  
 ✅ Encourage modular, documented code  
 ✅ Budget time and staff for infrastructure work  
-✅ Advocate for code as a research output
+✅ Advocate for code as a research output (See [CEUS Special issue](https://www.sciencedirect.com/special-issue/322127/open-urban-data-science) by Filip Biljecki and Geoff Boeing)
 
 You’re not just supervising research — you’re shaping how research gets done.
 ---

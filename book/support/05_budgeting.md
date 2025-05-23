@@ -1,6 +1,6 @@
 # Budgeting Time and Resources for Reproducible Code
 
-One of the most common mistakes in research projects involving Python is underestimating the time, people, and infrastructure needed to produce high-quality, reproducible code. Writing a working script is only part of the journey; turning that script into something reusable, shareable, and extensible requires significant extra effort. It is therefore essential to budget not only time but also roles, tools, and planning to ensure the technical work is properly supported.
+One of the most common mistakes in research projects involving Python (or any technical development) is underestimating the time, people, and infrastructure needed to produce high-quality, reproducible code. Writing a working script is only part of the journey; turning that script into something reusable, shareable, and extensible requires significant extra effort. It is therefore essential to budget not only time but also roles, tools, and planning to ensure the technical work is properly supported.
 
 Good budgeting in this context does not mean financial planning alone—it means realistically forecasting the effort needed and making sure the right support systems are in place from the start. This section outlines how project teams can plan more effectively for reproducible Python work.
 
@@ -41,35 +41,33 @@ Coding projects benefit enormously from having the right people in the right rol
 Technical work also requires appropriate digital infrastructure. This is often overlooked until it causes problems.
 
 - **Budget for storage solutions.**  
-  Data must be stored securely and backed up properly. Platforms such as Dropbox, Google Drive, institutional servers, or cloud-based services (e.g., AWS S3) can be used, but they must be planned for in advance. Be mindful of sensitive data requirements, including GDPR compliance where relevant.
+  Data must be stored securely and backed up properly. Platforms such as Dropbox, Google Drive, institutional servers, or cloud-based services (e.g., AWS S3) can be used, but they must be planned for in advance. Be mindful of sensitive data requirements, including GDPR compliance where relevant. If your funding has specific data residency requirements, make sure to check with the service provider.
 
 - **Budget for compute resources.**  
-  More complex analyses may require significant computing power. Access to high-performance computing (HPC) clusters, cloud computing credits (e.g., AWS, Azure), or enhanced local machines may need to be secured.
+  More complex analyses may require significant computing power. Access to high-performance computing (HPC) clusters, cloud computing credits (e.g., AWS, Azure), or enhanced local machines may need to be secured. Chalmers ITA can help you with this.
 
 - **Use version control systems.**  
-  Implementing GitHub, GitLab, or Bitbucket from the start allows the team to track code changes, collaborate effectively, and roll back mistakes. Setting up private repositories or institutional Git services might require coordination with IT departments.
+  Implementing GitHub, GitLab, or Bitbucket from the start allows the team to track code changes, collaborate effectively, and roll back mistakes. Setting up private repositories or institutional Git services might require coordination with IT departments. You can also use the Chalmers Git service www.git.chalmers.se
 
 - **Budget for project management tools.**  
-  Especially on larger projects, simple tools like Trello, GitHub Issues, or even shared spreadsheets can make a significant difference in tracking tasks, bugs, feature requests, and milestones.
+  Especially on larger projects, simple tools like Trello, GitHub Issues, or even shared spreadsheets can make a significant difference in tracking tasks, bugs, feature requests, and milestones. But they need to be agreed on at the start of the project.
 
-- **Plan for software environments and dependencies.**  
-  Ensuring reproducibility often requires recording the exact software packages and versions used. Tools like `pip`, `conda`, `poetry`, or container solutions like Docker can help—but setting them up and maintaining them takes time and technical knowledge that must be accounted for.
 
 ## Other Considerations
 
 In addition to time, roles, and infrastructure, it is wise to consider:
 
 - **Budgeting for communication.**  
-  Regular check-ins, coding clinics, and collaborative workshops ensure problems are caught early. Encourage a culture of open communication about technical hurdles.
+  Regular check-ins, code reviews, and collaborative workshops ensure problems are caught early. Encourage a culture of open communication about technical hurdles. If you want people to approach you, you need to be clear that you welcome this. The same goes for if you need support with something, make sure you let people know what you need.
 
 - **Budgeting for sustainability and handover.**  
-  Research projects do not end neatly when funding runs out. Ensure time is set aside to archive code, write final documentation, and prepare handover notes for future researchers who may wish to reuse the work.
+  Research projects do not end neatly when funding runs out. Ensure time is set aside to archive code, write final documentation, and prepare handover notes for future researchers who may wish to reuse the work. If you feel like there will be no funding left over to archive code, it mught be wise to plan it into your following projects to start with a "project wrap up" phase first.
 
 - **Budgeting for publication and sharing.**  
-  If code or data will be shared publicly (e.g., via GitHub, Zenodo, or institutional repositories), allow time for preparing the materials properly, ensuring compliance with licences, ethical requirements, and best practices for open science.
+  If code or data will be shared publicly (e.g., via GitHub, Zenodo, or institutional repositories), allow time for preparing the materials properly, ensuring compliance with licences, ethical requirements, and best practices for open science. You might have to simplified versions of your code base, create smaller examples or demos to help new users etc.
 
 ## Final Thoughts
 
-Budgeting properly for Python-based research projects is not only a technical necessity—it is a mark of respect for the work being undertaken. Realistic, thoughtful planning for time, people, and infrastructure helps ensure that coding work is robust, reproducible, and ultimately useful beyond the lifetime of a single project. It also reduces stress and misunderstandings within research teams and improves the chances of producing open, high-impact research outputs.
+Budgeting properly for Python-based research projects is not only a technical necessity— it also reduces stress and misunderstandings within research teams and improves the chances of producing open, high-impact research outputs.
 
 By embedding these considerations into the early stages of project design, research teams set themselves up for success—and make an important contribution to the wider culture of good scientific practice.

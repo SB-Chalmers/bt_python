@@ -46,19 +46,19 @@ parts:
 
   - caption: Supporting Python Projects (for Supervisors & Leads)
     chapters:
-      - file: support/intro.md
+      - file: support/01_intro.md
         title: Why Senior Researchers Should Support Python Workflows
-      - file: support/scoping.md
+      - file: support/02_scoping.md
         title: Scoping Python in a Research Project
-      - file: support/data_standards.md
+      - file: support/03_data_standards.md
         title: Making Data Easy to Use in Python
-      - file: support/self_assessment.md
+      - file: support/04_self_assessment.md
         title: Self-Assessment Checklists (PI, Supervisor, Manager)
-      - file: support/budgeting.md
+      - file: support/05_budgeting.md
         title: Budgeting Time and Resources for Reproducible Code
-      - file: support/code_review.md
+      - file: support/06_code_review.md
         title: Reviewing Python-Based Research (Without Being a Coder)
-      - file: support/summary.md
+      - file: support/07_summary.md
         title: Summary of Key Points for Supporting Python Projects
   
   - caption: Extras & Resources

@@ -1,6 +1,5 @@
 # Why Senior Researchers Should Support Python Workflows
 
-Python is now one of the most widely used tools across research fields — helping researchers to analyse data, automate tasks, simulate systems, and create reproducible outputs.  
 While many researchers learn Python independently, they often lack structured support at the project level.
 
 Supporting Python-based research does not mean you have to write code yourself.  
@@ -25,11 +24,12 @@ Good habits early on — like clear naming, documentation, and modular coding �
 
 A well-maintained codebase protects not just the research itself, but also the ability to build upon it in the future.
 
+
 ---
 
 ### 🚀 Accelerate Onboarding
 
-When a new student or collaborator joins a project, messy or undocumented code can delay their progress for weeks.  
+When a new student or collaborator joins an ongoing project, messy or undocumented code can delay their progress for weeks.  
 If projects have clean folders, clear instructions, and good coding standards, new team members can:
 - Understand workflows faster
 - Trust the results
@@ -49,17 +49,22 @@ Using simple practices like version control, documented data sources, and script
 
 Research that is reproducible earns greater trust, wider use, and longer impact.  
 Helping your team embed reproducibility early also prepares them for future research careers where open practices are increasingly valued.
+```{note}
+If you are worried about the security of your project code, consider the Chalmers Git portal. www.git.chalmers.se
+```
 
 ---
 
 ### 🏗️ Ensure Proper Resource Allocation
 
-Technical work — like data cleaning, code development, and setting up environments — takes real time.  
+Technical work — like data extraction, cleaning, code development, and setting up environments — takes real time.  
 If these efforts are not recognised and planned for, deadlines slip and workloads become unfair.
 
 Supervisors who take technical needs seriously help by:
-- Allowing enough time for coding and debugging
-- Budgeting for research assistants, servers, or software where needed
+- Identifying manual tasks that can be automated (or not automated)
+- Ensuring that time consuming manual work is never repeated
+- Allowing enough time for coding, documenting and debugging
+- Budgeting for research assistants, data engineers, servers, IT Support or software where needed
 - Avoiding burnout by sharing workloads wisely
 
 Good planning protects both project success and staff wellbeing.
@@ -71,7 +76,7 @@ Good planning protects both project success and staff wellbeing.
 Clean, documented Python projects have a life beyond the original study.  
 They can be reused, cited, extended, and adapted into new collaborations.
 
-Labs that support good technical practices tend to:
+Labs/Research groups that support good technical practices tend to:
 - Publish faster and more often
 - Build stronger reputations
 - Attract more funding and talented students
@@ -85,12 +90,12 @@ Good practices today lead to more opportunities tomorrow.
 ## Why This Matters in a Research Career
 
 Technical skills and reproducibility practices are now vital parts of being a good researcher.  
-They show seriousness, integrity, and readiness for future roles in academia, industry, or public service.
+They show seriousness, integrity, and readiness for future roles in academia, industry, or public service. By creating well supported and well documented open-source code you can also attract talented researchers to join the group in the future. Programmers love open-source!
 
 By supporting Python workflows thoughtfully, supervisors do more than just help students complete theses.  
-They build a culture of quality, collaboration, and continuous improvement.
+They train them in being more efficient, thoughtful and upskill them for the future.
 
 In short:  
-> **You don’t need to be a coder — just being aware of what's needed makes you a better research leader.**
+> **You don’t need to be a coder — just being aware of what's needed makes you a better.**
 
 ---

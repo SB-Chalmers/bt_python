@@ -53,7 +53,7 @@ Projects succeed when responsibilities are clear.
   If others will reuse the project later, someone should be responsible for documenting dependencies, reviewing changes, and maintaining the codebase.
 
 - **Are we training others?**  
-  If your goal includes building team capacity, set aside time for mentorship, pair programming, and code reviews. Plan for slower progress but long-term benefits.
+  If your goal includes building team capacity, set aside time for mentorship, pair programming, and code reviews. Plan for slower progress but long-term benefits. Knowledge transfer is key here.
 
 ---
 
@@ -63,9 +63,9 @@ Projects succeed when responsibilities are clear.
   - Sensor or time series data (e.g. CSV, HDF5, NetCDF)
   - Excel files (often manually edited)
   - JSON/XML from API endpoints
-  - Geo-spatial data (e.g., shapefiles, GeoJSON)
+  - Geo-spatial data (e.g., shapefiles, GeoJSON, Geopkg)
   - 3D data or BIM (e.g., OBJ, IFC, gbXML)
-  - SQL/NoSQL databases
+  - SQL databases
 
 - **How often does the data change?**
   - Static (e.g., one-off survey)
@@ -74,6 +74,7 @@ Projects succeed when responsibilities are clear.
 
 - **What are the data quality issues?**
   - Missing values, incorrect formats, inconsistent column naming, units mismatch. Plan time for exploration and cleaning—often 30–50% of the total workload.
+  - If possible, refuse messy data. You can define an dummy dataset that describes the desired variable naming and shape of the data you would like to receive and work with the data sender to avoid data quality issues.
 
 ---
 
@@ -82,7 +83,7 @@ Projects succeed when responsibilities are clear.
 - **What will the Python code feed into?**
   - Data visualization dashboards (e.g., Streamlit, Plotly Dash)
   - Scientific publication (tables, plots, LaTeX)
-  - Simulation engines (e.g., EnergyPlus, UrbanOpt, OpenFOAM)
+  - Simulation engines (e.g., EnergyPlus, UrbanOpt, OpenFOAM, MATSIM, Ladybugtools)
   - Web or mobile applications
   - 3D visualization tools (e.g., Rhino/Grasshopper, Revit)
   - Data archives or open repositories
@@ -98,7 +99,7 @@ Projects succeed when responsibilities are clear.
 - **Do you need to integrate other tools or software?**
   - Excel, Rhino/Grasshopper, Revit, ArcGIS/QGIS
   - Simulators like EnergyPlus, TRNSYS, UrbanOpt
-  - Web APIs or datasets (via `requests` or `aiohttp`)
+  - Web APIs or datasets
   - Front-end frameworks (if creating dashboards or visualizations)
 
 - **Are there existing codebases in other languages?**
@@ -106,7 +107,7 @@ Projects succeed when responsibilities are clear.
   - If so, can they be called via CLI, re-implemented, or wrapped with APIs?
 
 - **Is there a need to define a data model or database schema?**
-  - For larger datasets, especially with relational structure (e.g., households, trips, zones), you may need to define an entity-relationship (ER) model and implement it in SQL.
+  - For larger datasets, especially with relational structure (e.g., households, trips, zones), you may need to define an entity-relationship (ER) model and implement it.
 
 ---
 
@@ -138,21 +139,22 @@ Create a semi-automated pipeline that:
 - Displays results in a web dashboard and exports summary CSVs
 
 ### 🚀 Level of Ambition
-Mid-to-high:
+High-to-very high:
 - Used weekly by facilities staff
 - Shared on internal dashboard
 - Must be robust and documented
 
 ### 👥 Roles
-- PhD student develops data pipeline and dashboard
+- PhD student develops data pipeline and design dashboard
 - Facilities team provides weekly Excel sheets
-- Project assistant supports dashboard testing and documentation
+- Project assistant supports data extraction, processing, dashboard testing and documentation
 - IT staff manages SQL database credentials
+- Front end developer works with IT team to take dashboard design and make it functional.
 
 ### 📥 Upstream Data
 - SQL database with hourly HVAC sensor data per room
 - Excel files from maintenance team (room IDs, floorplans)
-- 3D geometry from Rhino (OBJ → JSON)
+- 2D geometry from Scanned drawings (PDF → Rhino)
 - Weather API for daily outside temperature (JSON)
 
 ### 📤 Downstream Outputs
@@ -161,25 +163,17 @@ Mid-to-high:
 - JSON overlays for 3D geometry visualization in Grasshopper
 - Monthly report plots (PNG) for presentations
 
-### 🛠 Tools Used
-- `pandas`, `sqlalchemy`, `requests`, `matplotlib`, `streamlit`
-- `ghpythonlib` for Rhino integration
-- `openpyxl` for Excel parsing
-- GitHub for version control, repo, and collaboration
-- `.env` files for managing secrets (e.g., API keys)
 
 ### ⏳ Time Estimate
-- 1 week to connect to SQL and extract sensor data
-- 1 week to clean, aggregate, and match room geometry
-- 1 week to build the dashboard and test formats
-- 3–5 days to finalize exports, documentation, and run scripts
-- Ongoing: 2 hrs/week maintenance and updates
+- No one can give you an accurate time estimate unless you know exactly what you need.
+- What you could do is describe your project to an expert in levels of ambition
+- The range between the lowest and highest level of ambition should inform your time estimate
 
 ### ⚠️ Pitfalls to Avoid
-- Excel sheets change column names each week → use flexible parsers
-- Sensor data has missing hours → fill or flag them
-- Room IDs differ between data sources → create a lookup table
-- Database credentials change → use a `.env` system for secure config
+- When budgeting almost assume that you have underestimated the project.
+- Technical projects with code development will take longer because there are many unknowns with data quality and availability.
+- Always plan for an MVP 
+- If you are building a tool that will be used by industry professionals, hire a professional developer.
 
 ---
 
