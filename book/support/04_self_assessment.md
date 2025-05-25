@@ -1,4 +1,6 @@
-
+---
+marp: true
+---
 # Supporting Python-Based Research Projects
 
 *For Principal Investigators, Supervisors & Managers*
@@ -11,6 +13,7 @@ A practical guide to roles, responsibilities, and self-assessment tools for rese
 
 Successful Python-based research depends on the right support at every stage. This section outlines the core responsibilities of principal investigators (PIs), supervisors, project managers, and research support staff.
 
+---
 ### Roles at a Glance
 
 | Role                          | Stage                 | Key Task                                   |
@@ -20,9 +23,12 @@ Successful Python-based research depends on the right support at every stage. Th
 | 🧑‍🎓 **Supervisor – Late PhD**    | Pre‑Submission        | Polish code for sharing & citation         |
 | 🎓 **Supervisor – Master’s**       | Thesis Development    | Scope realistically & deliver a clean repo |
 | 🧑‍💼 **Division/Project Manager** | Program Oversight     | Provide standards, training & infrastructure |
-| *(Optional)* **RSE, Data Manager, RA** | —               | Specialized technical support              |
+
+---
 
 Each role contributes uniquely to the success of the project. Below are detailed descriptions of the responsibilities and support expectations for each.
+
+---
 
 ### 🧑‍🔬 Principal Investigator (PI) – Grant Application Stage
 
@@ -35,6 +41,8 @@ Each role contributes uniquely to the success of the project. Below are detailed
 4. **Define Team Roles Early**: Avoid ambiguity by assigning ownership of coding, testing, documentation, and infrastructure tasks.
 5. **Recognize Infrastructure as Output**: Treat scripts, pipelines, and tools as valid scholarly contributions alongside traditional papers.
 
+---
+
 ### 👩‍🏫 Supervisor – Early‑Stage PhD
 
 **Key Task:** Establish foundational habits and workflows.
@@ -45,6 +53,8 @@ Each role contributes uniquely to the success of the project. Below are detailed
 3. **Set Coding Standards**: Introduce basic best practices such as naming conventions, consistent folder layout, and commenting.
 4. **Co‑create a Project Repo**: Start the research with a working, version-controlled template to encourage reproducibility.
 5. **Diagnose Common Blockers**: Help students differentiate between programming issues and theoretical confusion, reducing frustration and delays.
+
+---
 
 ### 🧑‍🎓 Supervisor – Late‑Stage PhD
 
@@ -57,6 +67,8 @@ Each role contributes uniquely to the success of the project. Below are detailed
 4. **Encourage Reproducibility**: Ensure results can be regenerated using provided scripts and clear instructions.
 5. **Support Publication Readiness**: Assist with making the repository public, licensing, and writing metadata or README files.
 
+---
+
 ### 🎓 Supervisor – Master’s Thesis
 
 **Key Task:** Scope the project realistically and guide toward a clean final product.
@@ -68,6 +80,8 @@ Each role contributes uniquely to the success of the project. Below are detailed
 4. **Require a Final Repo**: Expect a deliverable GitHub repo that includes a README, instructions, and cleaned datasets.
 5. **Time Guidance**: Remind students that data cleaning and debugging often take longer than expected, and should be accounted for early.
 
+---
+
 ### 🧑‍💼 Division/Project Manager
 
 **Key Task:** Support multiple projects through shared infrastructure and policy.
@@ -78,6 +92,7 @@ Each role contributes uniquely to the success of the project. Below are detailed
 3. **Train Researchers**: Offer internal courses or onboarding materials for students and staff new to programming.
 4. **Institutionalize Documentation**: Require teams to document handover procedures, workflow diagrams, and dependencies.
 5. **Enable Collaboration**: Encourage reuse by rewarding shared solutions, modular scripts, and cross-project contributions.
+---
 
 ### Optional Roles: RSEs, Data Stewards, Research Assistants
 
@@ -98,6 +113,8 @@ Each role contributes uniquely to the success of the project. Below are detailed
 ## Part II: Self‑Assessment Checklists  
 _Use the tables to reflect on project readiness. Tick ✔︎ or ✘, and jot brief notes if needed._
 
+---
+
 ### 1. Principal Investigator (PI)
 
 | Question                                                                    | ✔︎ Yes | ✘ No | ❓ Not Sure |
@@ -109,6 +126,8 @@ _Use the tables to reflect on project readiness. Tick ✔︎ or ✘, and jot bri
 | Embedded open‑science or reproducibility deliverables (JOSS, Zenodo)?        | ☐     | ☐    | ☐           |
 | Defined roles around code development, review, and maintenance?              | ☐     | ☐    | ☐           |
 | Treat codebase as a valid research output?                                   | ☐     | ☐    | ☐           |
+
+---
 
 ### 2. Supervisor – Early PhD
 
@@ -122,6 +141,8 @@ _Use the tables to reflect on project readiness. Tick ✔︎ or ✘, and jot bri
 | Discussed reproducibility vs. “just working”?                              | ☐     | ☐    | ☐           |
 | Encouraged peer‑sharing of notebooks?                                      | ☐     | ☐    | ☐           |
 
+---
+
 ### 3. Supervisor – Late PhD
 
 | Question                                                                 | ✔︎ Yes | ✘ No | ❓ Not Sure |
@@ -132,6 +153,8 @@ _Use the tables to reflect on project readiness. Tick ✔︎ or ✘, and jot bri
 | Considering a JOSS or methods paper submission?                           | ☐     | ☐    | ☐           |
 | Time allocated for final code/data polishing?                             | ☐     | ☐    | ☐           |
 | Reflects strong research‑software practices?                              | ☐     | ☐    | ☐           |
+
+---
 
 ### 4. Supervisor – Master’s Thesis
 
@@ -144,6 +167,8 @@ _Use the tables to reflect on project readiness. Tick ✔︎ or ✘, and jot bri
 | Code quality reviewed in assessment?                                  | ☐     | ☐    | ☐           |
 | Pipeline documentation guided?                                         | ☐     | ☐    | ☐           |
 
+---
+
 ### 5. Division/Project Manager
 
 | Question                                                      | ✔︎ Yes | ✘ No | ❓ Not Sure |
@@ -154,6 +179,8 @@ _Use the tables to reflect on project readiness. Tick ✔︎ or ✘, and jot bri
 | RSEs/technical roles recognized in budgets?                    | ☐     | ☐    | ☐           |
 | Documentation for handover of code/data?                       | ☐     | ☐    | ☐           |
 | Publishing shared tools/datasets encouraged?                    | ☐     | ☐    | ☐           |
+
+---
 
 ### 6. Research Assistant / Collaborator
 
@@ -173,5 +200,3 @@ _Use the tables to reflect on project readiness. Tick ✔︎ or ✘, and jot bri
 - [Sample README.md](https://www.makeareadme.com/)
 - [JOSS Submission Guidelines](https://joss.theoj.org/)
 - [Zenodo Deposits](https://zenodo.org/)
-
----

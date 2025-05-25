@@ -1,3 +1,6 @@
+---
+marp: true
+---
 # Data Cleaning Guidelines for Python Workflows
 
 Clean, well-structured data is essential for reliable, reproducible analyses and machine learning pipelines.  
@@ -15,6 +18,8 @@ This guide provides best practices, examples, and practical tips to help your te
 - **Keep a tabular structure.**  
   Each row should represent one observation; each column should represent one variable. Do not include units, comments, or calculations inside the data cells.
 
+---
+
 - **Use consistent naming.**  
   Adopt `snake_case` (lowercase words joined by underscores), and use only ASCII letters and numbers.  
   Example:  
@@ -22,6 +27,8 @@ This guide provides best practices, examples, and practical tips to help your te
 
 - **Single data type per column.**  
   Each column should contain only one kind of data: numbers should be stored as numbers, dates as ISO strings (`YYYY-MM-DD`), and text as plain strings.
+
+---
 
 - **Encode booleans and categories clearly.**
   - For true/false (boolean) columns, use `0` for false and `1` for true.
@@ -31,9 +38,11 @@ This guide provides best practices, examples, and practical tips to help your te
     |:--------------:|:----------:|:---------------:|
     |       1        |     0      |        0        |
 
+---
 - **Encoding and units.**
   - Always save CSVs as UTF-8 to preserve special characters like `Malmö`.
   - Include units in column names, such as `height_m` for height in metres or `energy_kwh` for energy in kilowatt-hours.
+
 
 ```{tip}
 If you cannot read your data easily with one line of Python (like `pd.read_csv('file.csv')`), the formatting needs improvement.
@@ -45,6 +54,7 @@ If you cannot read your data easily with one line of Python (like `pd.read_csv('
 
 Use clear, concise names for columns and files. Stick to lowercase letters, numbers, and underscores (`_`).
 
+---
 | ❌ Bad               | ✅ Good                 |
 |----------------------|-------------------------|
 | `Project Name`       | `project_name`           |
@@ -56,6 +66,8 @@ Use clear, concise names for columns and files. Stick to lowercase letters, numb
 | `Address/Location`   | `address_location`       |
 | `Total(SEK)`             | `total_amount_sek`       |
 | `Date of Completion` | `date_of_completion`     |
+
+---
 
 ```{tip}
 Use standard abbreviations like `temp` for temperature. Avoid spaces, hyphens, or special characters in file names.
@@ -71,6 +83,7 @@ Good metadata ensures others (and your future self) can understand and reuse the
 - **Create a data dictionary.**  
   A table describing each column’s name, type, units, description, and allowed values.
 
+
   Example:
 
   | column_name         | type    | units | description                                 | allowed_values           |
@@ -84,6 +97,7 @@ Good metadata ensures others (and your future self) can understand and reuse the
   | `completion_date`   | date    |       | Date when the project was completed         | `YYYY-MM-DD`             |
   | `has_basement`      | bool    |       | Whether the building has a basement (0 = no, 1 = yes) | 0, 1           |
 
+---
 - **Write a README or metadata file.**  
   Include:
   - Data source and collection method
@@ -121,7 +135,7 @@ Recommended folder structure:
 
 - **Validate data types.**  
   After loading, inspect your data with `df.info()` and `df.dtypes` in pandas to confirm everything is the correct type.
-
+---
 - **Maintain language consistency.**  
   Use English for headers. For value fields, use UTF-8 encoding to support international characters.
 

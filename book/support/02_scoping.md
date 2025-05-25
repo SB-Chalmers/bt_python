@@ -1,3 +1,7 @@
+---
+marp: true
+---
+
 # Scoping Python in a Research Project
 
 Using Python in research can accelerate research, improve reproducibility, and reduce manual effort. But jumping into code without a clear plan often leads to frustration, rework, and scope creep. Scoping is the process of defining *what* your project will do, *how ambitious* it is, *who* is involved, and *what infrastructure and tools* are required to support it.
@@ -10,6 +14,8 @@ This chapter helps you assess your needs, estimate the required time, and align 
 
 Why are you using Python in this project? Different purposes come with different levels of complexity, time, and required skills.
 
+---
+
 - **Are we exploring data?**  
   Use Python for ad-hoc visualizations, summary statistics, or sanity-checking datasets. This is usually fast, flexible, and can be done in Jupyter notebooks with `pandas`, `matplotlib`, or `seaborn`.
 
@@ -18,6 +24,8 @@ Why are you using Python in this project? Different purposes come with different
 
 - **Building a long-term reusable tool?**  
   Reusable tools need more structure. You'll want modular code, documentation, and tests. Think carefully about maintainability and the future users of your code.
+
+---
 
 - **Feeding simulations or other tools?**  
   Your Python code might be part of a larger toolchain—generating input files, post-processing outputs, or automating scenario runs. These tasks often require careful format matching and validation.
@@ -67,6 +75,8 @@ Projects succeed when responsibilities are clear.
   - 3D data or BIM (e.g., OBJ, IFC, gbXML)
   - SQL databases
 
+---
+
 - **How often does the data change?**
   - Static (e.g., one-off survey)
   - Periodic (e.g., weekly log files)
@@ -88,6 +98,8 @@ Projects succeed when responsibilities are clear.
   - 3D visualization tools (e.g., Rhino/Grasshopper, Revit)
   - Data archives or open repositories
 
+---
+
 - **What formats are needed for output?**
   - PDF, PNG, CSV, JSON, GeoJSON, SQL tables, IDF files, shapefiles, etc.
   - Be clear about format requirements and check compatibility early.
@@ -101,6 +113,8 @@ Projects succeed when responsibilities are clear.
   - Simulators like EnergyPlus, TRNSYS, UrbanOpt
   - Web APIs or datasets
   - Front-end frameworks (if creating dashboards or visualizations)
+
+---
 
 - **Are there existing codebases in other languages?**
   - MATLAB, R, Stata, Fortran, C++
@@ -138,6 +152,8 @@ Create a semi-automated pipeline that:
 - Combines building geometry for spatial overlays
 - Displays results in a web dashboard and exports summary CSVs
 
+---
+
 ### 🚀 Level of Ambition
 High-to-very high:
 - Used weekly by facilities staff
@@ -151,11 +167,15 @@ High-to-very high:
 - IT staff manages SQL database credentials
 - Front end developer works with IT team to take dashboard design and make it functional.
 
+---
+
 ### 📥 Upstream Data
 - SQL database with hourly HVAC sensor data per room
 - Excel files from maintenance team (room IDs, floorplans)
 - 2D geometry from Scanned drawings (PDF → Rhino)
 - Weather API for daily outside temperature (JSON)
+
+---
 
 ### 📤 Downstream Outputs
 - CSV with daily kWh per zone
@@ -163,11 +183,14 @@ High-to-very high:
 - JSON overlays for 3D geometry visualization in Grasshopper
 - Monthly report plots (PNG) for presentations
 
+---
 
 ### ⏳ Time Estimate
 - No one can give you an accurate time estimate unless you know exactly what you need.
 - What you could do is describe your project to an expert in levels of ambition
 - The range between the lowest and highest level of ambition should inform your time estimate
+
+---
 
 ### ⚠️ Pitfalls to Avoid
 - When budgeting almost assume that you have underestimated the project.

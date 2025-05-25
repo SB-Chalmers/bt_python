@@ -1,5 +1,8 @@
+---
+marp: true
+---
 # Why Senior Researchers Should Support Python Workflows
-
+---
 While many researchers learn Python independently, they often lack structured support at the project level.
 
 Supporting Python-based research does not mean you have to write code yourself.  
@@ -11,6 +14,8 @@ By actively supporting Python workflows, you can strengthen the quality, speed, 
 
 ## How Your Support Can Make a Difference
 
+---
+
 ### 🛠️ Reduce Technical Debt
 
 **Technical debt** happens when quick solutions are chosen instead of well-structured code.  
@@ -21,8 +26,6 @@ At first, the script may work, but over time, problems build up:
 
 In research, technical debt leads to delays, errors, and lost knowledge.  
 Good habits early on — like clear naming, documentation, and modular coding — stop technical debt from accumulating and keep projects strong over time.
-
-A well-maintained codebase protects not just the research itself, but also the ability to build upon it in the future.
 
 
 ---
@@ -58,7 +61,7 @@ If you are worried about the security of your project code, consider the Chalmer
 ### 🏗️ Ensure Proper Resource Allocation
 
 Technical work — like data extraction, cleaning, code development, and setting up environments — takes real time.  
-If these efforts are not recognised and planned for, deadlines slip and workloads become unfair.
+If these efforts are not recognised and planned for, deadlines slip and workloads become unfair. Good planning protects both project success and staff wellbeing.
 
 Supervisors who take technical needs seriously help by:
 - Identifying manual tasks that can be automated (or not automated)
@@ -67,7 +70,7 @@ Supervisors who take technical needs seriously help by:
 - Budgeting for research assistants, data engineers, servers, IT Support or software where needed
 - Avoiding burnout by sharing workloads wisely
 
-Good planning protects both project success and staff wellbeing.
+
 
 ---
 
@@ -94,6 +97,8 @@ They show seriousness, integrity, and readiness for future roles in academia, in
 
 By supporting Python workflows thoughtfully, supervisors do more than just help students complete theses.  
 They train them in being more efficient, thoughtful and upskill them for the future.
+
+---
 
 In short:  
 > **You don’t need to be a coder — just being aware of what's needed makes you a better.**
